@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url(https://www.wallmurals.co.uk/wp-content/uploads/2021/03/planets-kids-wallpaper-mural-lifestyle.jpg); /* Replace with your background image URL */
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7); 
+    width: 100%; 
+    padding: 10px 0; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.navbar {
+    flex-grow: 1; 
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex; 
+    justify-content: space-between; 
+    margin: 0 20px; 
+}
+
+.navbar a {
+    color: #7ba376;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px; 
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+    background-color: rgba(255, 255, 255, 0.2); 
+}
+
+.main-title {
+    font-size: 1.5em;
+    margin: 0;
+    text-align: center; 
+}
+
+.highlight {
+    display: block;
+    font-size: 2em;
+    color: #7ba376;
+}
+
+.start-button {
+    margin-top: 20px; 
+    padding: 10px 15px; 
+    font-size: 1em; 
+    background-color: #007bff; 
+    cursor: pointer; 
+    border-radius: 50px; 
+    transition: background-color 0.3s, border-color 0.3s, border-radius 0.3s; 
+    display: inline-block; 
+    text-align: center; 
+    width: 200px; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+.start-button:hover {
+    background-color: #076fdf;
+    border-radius: 50px;
+}
+
+.hero {
+    text-align: center; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+}
+
+.cards-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.card {
+    background-color: #7ba376;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: 30%;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.icon {
+    font-size: 40px;
+}
+
+h1, h2, h3 {
+    margin: 10px 0;
+}
